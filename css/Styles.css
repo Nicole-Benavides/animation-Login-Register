@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #00bbfff0;
+}
+
+body{
+    background-color: #00bbfff0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#principal{
+    width: 100%;
+    max-width: 1650px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch ;
+    margin: 10% auto;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    background-color: #ffffff;
+}
+
+#principal .formulario{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#principal form{
+    margin-top: 40px;
+}
+
+#principal input{
+    width: 70%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 14px 30px;
+    display: block;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario p{
+    padding: 10px 50px;
+}
+
+
+#principal button{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 12px 40px;
+    background-color: #00bbfff0;
+    border: 2px solid #00bbfff0;
+    border-radius: 15px;
+}
+
+.animacion{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    padding: 48px 0;
+    z-index: 9;
+    background-color: #0c4f65;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.animacion .login{
+    display: none;
+}
+
+.animacion.move-left .login{
+    display: block;
+}
+
+.animacion.move-left .register{
+    display: none;
+}
+
+.animacion.move-left{
+    right: 50%;
+
+}
+
+.animacion h2{
+    color: #ffffff;
+    margin-top: 110px;
+}
+
+.animacion p{
+    color: #ffffff;
+    padding: 20px 100px;
+}
+
+.animacion a{
+    color: #0c4f65;
+    text-decoration: none;
+    border: transparent;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 30px auto;
+    padding: 12px 40px;
+    border-radius: 15px;
+}
